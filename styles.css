@@ -105,16 +105,84 @@ header{
     
 }
 footer{
-    background-color: #d2d2d2;
+    display: grid; 
+    background-color: #f2f2f2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
+.footerdiv{
+    display: flex; 
+    flex-wrap: wrap; 
+    font-size: 16px; 
+}
+
+.ft_bus{
+    justify-content:flex-start;
+    min-width: 30%; 
+    order: 1; 
+}
+
+.ft_priv{
+    justify-content: flex-end; 
+    min-width: 30%; 
+    order: 2; 
+}
+.ft_carb{
+    order: 0; 
+    max-width: 100%; 
+    justify-content: center;
+    text-align: center; 
+}
+.adv{
+    display: inline-block; 
+    padding: 15px; 
+    white-space: nowrap;
+}
+.bus{
+    display: inline-block; 
+    padding: 15px; 
+    white-space: nowrap;
+}
+.hsw{
+    display: inline-block; 
+    padding: 15px; 
+    white-space: nowrap;
+    
+}
+.priv{
+    display: inline-block; 
+    padding: 15px; 
+    white-space: nowrap;
+    
+}
+.terms{
+    display: inline-block; 
+    padding: 15px; 
+    white-space: nowrap;
+}
+.set{
+    display: inline-block; 
+    padding: 15px; 
+    white-space: nowrap;
+}
+.env{
+    text-align: center; 
+    padding: 15px; 
+    margin-left:auto; 
+    margin-right: auto; 
+    
+}
+
 /* to do: 
 - align header <p>'s (x)
 - resize header image(s) (x)
 -add account images
--resize google image
--resize input box 
+-resize google image (x) 
+-resize input box (x)
 -add search icon?
--resize + align buttons
+-resize + align buttons (x)
 - resize footer <p>'s 
 -align footer <p>'s 
 */ 
