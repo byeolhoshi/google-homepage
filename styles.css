@@ -1,4 +1,32 @@
 html{
     background-color: white; 
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Roboto', Arial, sans-serif; 
 }
+header{
+    color: #222222; 
+    font-size: 14px; 
+
+}
+.about{
+    margin: 0px, 5px, 0px, 15px;
+    padding: 5px; 
+}
+.store{
+    margin: 0px, 5px; 
+    padding: 5px; 
+}
+
+
+
+
+/* to do: 
+- align header <p>'s 
+- resize header image(s) 
+-add account images
+-resize google image
+-resize input box 
+-add search icon?
+-resize + align buttons
+- resize footer <p>'s 
+-align footer <p>'s 
+*/ 
