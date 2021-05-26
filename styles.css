@@ -53,6 +53,7 @@ header{
 
 .search-bar{
     margin: 5px, 8px, 0px, 14px; 
+    margin-top: 3%; 
 }
 
 .search{
@@ -80,8 +81,6 @@ header{
 .gsearch{
     display: inline-block; 
     background-color: #f8f9fa;
-    /*border-radius: 15px;*/ 
-    /*line-height: 27px; */
     min-width: 54px; 
     height: 36px; 
     text-align: center; 
@@ -89,13 +88,13 @@ header{
     cursor: pointer; 
     border: 1px solid #f8f9fa; 
     padding: 0 16px; 
+    margin-left: 39%;
+    margin-top: 3%; 
 
 }
 .feel-lucky{
     display: inline-block; 
     background-color: #f8f9fa;
-    /*border-radius: 15px;*/ 
-    /*line-height: 27px; */
     min-width: 54px; 
     height: 36px; 
     text-align: center; 
@@ -103,6 +102,7 @@ header{
     cursor: pointer; 
     border: 1px solid #f8f9fa; 
     padding: 0 16px; 
+    
 }
 footer{
     background-color: #d2d2d2;
