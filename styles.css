@@ -10,18 +10,106 @@ header{
 .about{
     margin: 0px, 5px, 0px, 15px;
     padding: 5px; 
+    display: inline-block; 
 }
 .store{
     margin: 0px, 5px; 
+    padding: 5px;
+    display: inline-block;  
+}
+
+.gmail{
+    display: inline-block;
+    margin: 0px, 5px;
     padding: 5px; 
 }
 
+.secdiv{
+    padding: 0px, 4px, 0px, 0px; 
+    position: relative; 
+    left: 900px; 
+    bottom: 54.6px; 
+}
+.images{
+    display: inline-block; 
+    margin: 0px, 5px;
+    padding: 5px; 
+}
 
+.apps-icon{
+    width: 2%; 
+    margin: 0px, 0px, 0px, 15px; 
+    position: relative; 
+    left: 1px; 
+    top: 7px; 
+}
 
+.logo{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 30%; 
+}
 
+.search-bar{
+    margin: 5px, 8px, 0px, 14px; 
+}
+
+.search{
+    background-color: transparent; 
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word; 
+    display: flex; 
+    margin-top: 35px; 
+    height: 34px; 
+    font-size: 16px; 
+    width: 50%;
+    border-radius: 25px;
+    position: relative; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.search-button{
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    /*background-color: green; */
+}
+
+.gsearch{
+    display: inline-block; 
+    background-color: #f8f9fa;
+    /*border-radius: 15px;*/ 
+    /*line-height: 27px; */
+    min-width: 54px; 
+    height: 36px; 
+    text-align: center; 
+    margin: 11px, 4px; 
+    cursor: pointer; 
+    border: 1px solid #f8f9fa; 
+    padding: 0 16px; 
+
+}
+.feel-lucky{
+    display: inline-block; 
+    background-color: #f8f9fa;
+    /*border-radius: 15px;*/ 
+    /*line-height: 27px; */
+    min-width: 54px; 
+    height: 36px; 
+    text-align: center; 
+    margin: 11px, 4px; 
+    cursor: pointer; 
+    border: 1px solid #f8f9fa; 
+    padding: 0 16px; 
+}
+footer{
+    background-color: #d2d2d2;
+}
 /* to do: 
-- align header <p>'s 
-- resize header image(s) 
+- align header <p>'s (x)
+- resize header image(s) (x)
 -add account images
 -resize google image
 -resize input box 
